@@ -1,0 +1,43 @@
+{
+	"variables": [],
+	"info": {
+		"name": "post-office",
+		"_postman_id": "3eb87712-3ed5-b109-86a7-4aa572b11dc0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Jersey multi-part",
+			"request": {
+				"url": "",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Spring multi-part",
+			"request": {
+				"url": "http://localhost:8081/post-office/letter-box",
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "letter",
+							"value": "test",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
